@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f4f8; /* Light cream background */
+  color: #333; /* Dark text for contrast */
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  color: #2563eb; /* Bright blue for headings */
+}
+
+a {
+  color: #2563eb; /* Bright blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #1e40af; /* Darker blue on hover */
+}
+
+/* Header Styles */
+header {
+  background-color: #ffffff; /* White background */
+  padding: 20px 0;
+  border-bottom: 2px solid #2563eb; /* Blue border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #2563eb; /* Blue for the main title */
+}
+
+header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333; /* Dark text for subtitle */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #2563eb; /* Blue background */
+  padding: 100px 0;
+  text-align: center;
+  color: #ffffff; /* White text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7); /* Glowing effect */
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5); /* Subtle glowing effect */
+}
+
+.btn {
+  background-color: #ffffff; /* White button */
+  color: #2563eb; /* Blue text */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(37, 99, 235, 0.5); /* Glowing effect */
+}
+
+.btn:hover {
+  background-color: #1e40af; /* Darker blue on hover */
+  color: #ffffff; /* White text */
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.8); /* Stronger glowing effect */
+}
+
+/* Section Styles */
+.section {
+  padding: 60px 0;
+  border-bottom: 1px solid #ddd; /* Light border */
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2563eb; /* Blue for section headings */
+  text-shadow: 0 0 5px rgba(37, 99, 235, 0.3); /* Subtle glowing effect */
+}
+
+.section p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.features {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 calc(33.333% - 40px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #2563eb; /* Blue for feature titles */
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #555; /* Darker text for readability */
+}
+
+/* Footer Styles */
+footer {
+  background-color: #ffffff; /* White background */
+  padding: 20px 0;
+  text-align: center;
+  border-top: 2px solid #2563eb; /* Blue border */
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #333; /* Dark text for contrast */
+}
